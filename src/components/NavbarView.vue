@@ -1,7 +1,7 @@
 <template>
   <div class="navigation--links">
     <div class="logo">
-      <img class="logo" src="assets/logo_1-removebg-preview.png" alt="Perpetuum Mobile Logo">
+      <img class="logo" src="@/assets/logo_1-removebg-preview.png" alt="Perpetuum Mobile Logo">
     </div>
     <div class="sections">
       <nav class="navigation--link ">Acasă</nav>

@@ -13,6 +13,9 @@
       <a href="https://www.facebook.com/perpetuummobilefirsttech/" target="_blank" class="social">
         <img class="icon -icon" src="@/assets/15-1.png" alt="social link"/>
       </a>
+      <a href="https://www.printables.com/social/273911-perpetuum-mobile-065/about" target="_blank" class="social">
+        <img class="icon printables-icon" src="@/assets/prusa - Copy.png" alt="social link"/>
+      </a>
     </div>
     <p class="copyright">Copyright© 2022 Perpetuum Mobile. Toate drepturile rezervate. Made with 🖤 by Alex David and Alexandra Moroz.</p>
   </div>
