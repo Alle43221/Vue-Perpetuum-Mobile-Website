@@ -2,16 +2,16 @@
   <div class="footer">
     <div class="social-links">
       <a href="https://github.com/Perpetuum-Mobile-RO065" target="_blank" class="social">
-        <img class="icon git-icon" src="pictures/10.png" alt="Github social link"/>
+        <img class="icon git-icon" src="@/assets/10.png" alt="Github social link"/>
       </a>
       <a href="https://www.instagram.com/perpetuummobileftc/" target="_blank" class="social">
-        <img class="icon insta-icon" src="pictures/12.png" alt="Instagram social link"/>
+        <img class="icon insta-icon" src="@/assets/12.png" alt="Instagram social link"/>
       </a>
       <a href="https://discord.gg/8CPhWQCHhY" target="_blank" class="social">
-        <img class="icon dis-icon" src="pictures/13.png" alt="Discord social link"/>
+        <img class="icon dis-icon" src="@/assets/13.png" alt="Discord social link"/>
       </a>
       <a href="https://www.facebook.com/perpetuummobilefirsttech/" target="_blank" class="social">
-        <img class="icon -icon" src="pictures/15-1.png" alt="social link"/>
+        <img class="icon -icon" src="@/assets/15-1.png" alt="social link"/>
       </a>
     </div>
     <p class="copyright">Copyright© 2022 Perpetuum Mobile. Toate drepturile rezervate. Made with 🖤 by Alex David and Alexandra Moroz.</p>

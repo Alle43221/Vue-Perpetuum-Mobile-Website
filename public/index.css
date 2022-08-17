@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding:0;
+    background: rgb(33, 33, 33);
+    position: relative;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+::-webkit-scrollbar-track {
+    background: rgb(100, 164, 70) ;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:rgb(26, 105, 66);
+    border-radius: 100px;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: RGB(169, 204, 141);
+    background: rgb(26, 105, 66);
+}
+
+::selection {
+    color: RGB(169, 204, 141);
+    background: rgb(26, 105, 66);
+}
