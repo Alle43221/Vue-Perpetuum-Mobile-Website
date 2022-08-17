@@ -14,7 +14,7 @@
         <img class="icon -icon" src="@/assets/15-1.png" alt="social link"/>
       </a>
       <a href="https://www.printables.com/social/273911-perpetuum-mobile-065/about" target="_blank" class="social">
-        <img class="icon printables-icon" src="src/assets/prusa.png" alt="social link"/>
+        <img class="icon printables-icon" src="/src/assets/prusa.png" alt="social link"/>
       </a>
       <a href="mailto:" target="_blank" class="social">
         <img class="icon mail-icon" src="src/assets/email.png" alt="social link"/>
@@ -92,6 +92,12 @@ export default {
   padding: 0;
 }
 
+.printables-icon{
+  margin:0;
+  padding: 0;
+  width: 4%;
+}
+
 .copyright{
   margin: 0;
   padding: 0;
@@ -99,7 +105,7 @@ export default {
 
 .social{
   padding: 0;
-  margin: 0 75px 0 75px;
+  margin: 0 5vh 0 5vh;
   color:transparent;
 }
 </style>
