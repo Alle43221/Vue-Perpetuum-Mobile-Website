@@ -14,7 +14,10 @@
         <img class="icon -icon" src="@/assets/15-1.png" alt="social link"/>
       </a>
       <a href="https://www.printables.com/social/273911-perpetuum-mobile-065/about" target="_blank" class="social">
-        <img class="icon printables-icon" src="@/assets/prusa - Copy.png" alt="social link"/>
+        <img class="icon printables-icon" src="src/assets/prusa.png" alt="social link"/>
+      </a>
+      <a href="mailto:" target="_blank" class="social">
+        <img class="icon mail-icon" src="src/assets/email.png" alt="social link"/>
       </a>
     </div>
     <p class="copyright">Copyright© 2022 Perpetuum Mobile. Toate drepturile rezervate. Made with 🖤 by Alex David and Alexandra Moroz.</p>
