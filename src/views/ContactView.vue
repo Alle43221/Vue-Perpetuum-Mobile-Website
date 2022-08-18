@@ -91,7 +91,7 @@ export default {
 
 .email_copy{
   text-decoration: none;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .email_icon{
@@ -117,7 +117,7 @@ export default {
 }
 
 p{
-  margin: 5px ;
+  margin: 5px;
   color:#212121;
 }
 

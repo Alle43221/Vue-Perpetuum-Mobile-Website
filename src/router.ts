@@ -9,6 +9,7 @@ import SponsorsView from '@/views/SponsorsView.vue'
 import PageNotFound from '../src/views/PageNotFoundView.vue';
 import JoinTheTeamForm from '../src/components/JoinTheTeamForm.vue'
 import FormSucces from '../src/components/FormSucces.vue'
+import InConstructionView from '@/views/InConstructionView.vue'
 
 Vue.use(VueRouter);
 
@@ -17,7 +18,7 @@ routes= [
     {
         path: '/',
         name: 'HomeView',
-        component: PageNotFound,
+        component: InConstructionView,
     },
     {
         path: '/echipa-noastra',
