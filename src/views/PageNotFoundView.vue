@@ -16,8 +16,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin:10px 20px;
+  margin:10px 30px 10px 10px;
+  width: 110vh;
 }
+
 
 .announcement{
   width: 60%;
@@ -48,7 +50,7 @@ a{
   border: 2px solid RGB(169, 204, 141);;
   padding: 0.6rem;
   cursor: pointer;
-  margin:20px auto 10px auto;
+  margin:20px auto 10px 0;
   text-decoration: none;
   color:RGB(169, 204, 141);
   width: fit-content  ;
