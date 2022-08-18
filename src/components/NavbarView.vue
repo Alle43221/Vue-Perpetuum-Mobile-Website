@@ -1,26 +1,26 @@
 <template>
-  <div class="navigation--links">
+  <div id="navbar">
     <div class="logo">
       <img class="logo" src="@/assets/logo_1-removebg-preview.png" alt="Perpetuum Mobile Logo">
     </div>
     <div class="sections">
-      <nav class="navigation--link ">Acasă</nav>
-      <nav class="navigation--link">Echipa noastră</nav>
-      <nav class="navigation--link">Sponsori</nav>
-      <nav class="navigation--link">Alătură-te echipei!</nav>
-      <nav class="navigation--link active">Contact</nav>
+      <router-link class="navigation--link" to="/acasa">Acasă</router-link>
+      <router-link class="navigation--link" to="/echipa-noastra">Echipa noastră</router-link>
+      <router-link class="navigation--link" to="/sponsori">Sponsori</router-link>
+      <router-link class="navigation--link" to="/alatura-te-echipei">Alătură-te echipei!</router-link>
+      <router-link class="navigation--link" to="/contact">Contact</router-link>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "NavbarView.vue"
+  name: "NavbarView"
 }
 </script>
 
 <style scoped>
-.navigation--links{
+#navbar{
   display:flex;
   flex-direction:row;
   background: rgb(100, 164, 70);
@@ -42,13 +42,19 @@ export default {
   flex-direction:row;
 }
 
-.navigation--link{
+.navigation--link, a{
   font-weight: bold;
   margin: 10px 30px 10px 10px;
   cursor: pointer;
+  color:rgb(33, 33, 33);
+  text-decoration: none;
 }
 
-.navigation--link:hover {
+.navigation--link:active, a:active{
+  text-decoration: underline;
+}
+
+.navigation--link:hover, a:hover{
   -webkit-transition: text-shadow, color 200ms ease;
   -moz-transition: text-shadow, color 200ms ease;
   -o-transition: text-shadow, color 200ms ease;
@@ -68,11 +74,4 @@ export default {
   filter: drop-shadow(0px 0px 8px #222);
 }
 
-.active{
-  color: RGB(169, 204, 141);
-  text-shadow: -1.5px 1.5px 0 rgb(26, 105, 66),
-  1.5px 1.5px 0 rgb(26, 105, 66),
-  1.5px -1.5px 0 rgb(26, 105, 66),
-  -1.5px -1.5px 0 rgb(26, 105, 66);
-}
 </style>

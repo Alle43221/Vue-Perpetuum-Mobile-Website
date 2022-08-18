@@ -14,10 +14,10 @@
         <img class="icon -icon" src="@/assets/15-1.png" alt="social link"/>
       </a>
       <a href="https://www.printables.com/social/273911-perpetuum-mobile-065/about" target="_blank" class="social">
-        <img class="icon printables-icon" src="/src/assets/prusa.png" alt="social link"/>
+        <img class="icon printables-icon" src="@/assets/prusa.png" alt="social link"/>
       </a>
       <a href="mailto:" target="_blank" class="social">
-        <img class="icon mail-icon" src="src/assets/email.png" alt="social link"/>
+        <img class="icon mail-icon" src="@/assets/email.png" alt="social link"/>
       </a>
     </div>
     <p class="copyright">Copyright© 2022 Perpetuum Mobile. Toate drepturile rezervate. Made with 🖤 by Alex David and Alexandra Moroz.</p>
@@ -64,8 +64,7 @@ export default {
 }
 
 .icon:hover{
-  -webkit-filter: drop-shadow(0px 0px 5px  RGB(169, 204, 141));
-  filter: drop-shadow(0px 0px 5px RGB(169, 204, 141));
+  filter: brightness(0) saturate(100%) invert(28%) sepia(86%) saturate(366%) hue-rotate(98deg) brightness(96%) contrast(93%);
 }
 
 .insta-icon{
@@ -93,6 +92,12 @@ export default {
 }
 
 .printables-icon{
+  margin:0;
+  padding: 0;
+  width: 4.5%;
+}
+
+.mail-icon{
   margin:0;
   padding: 0;
   width: 4%;

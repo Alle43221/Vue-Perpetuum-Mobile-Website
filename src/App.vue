@@ -1,7 +1,11 @@
 <template>
-  <NavbarView></NavbarView>
-  <div id="content"></div>
-  <FooterView></FooterView>
+  <div id="app">
+    <NavbarView></NavbarView>
+    <div id="content">
+      <router-view></router-view>
+    </div>
+    <FooterView></FooterView>
+  </div>
 </template>
 
 <script>
@@ -19,11 +23,6 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
   margin:0;
   padding: 0;
 }
