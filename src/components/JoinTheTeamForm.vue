@@ -136,10 +136,6 @@
   color: #222222;
 }
 
-.option{
-  font-weight: normal;
-}
-
 .message {
   height: 9rem;
   word-wrap: normal;
@@ -208,6 +204,7 @@ input:focus, textarea:focus{
 .option{
   color: #212121;
   margin: 0.3rem 0;
+  font-weight: normal;
 }
 
 select{
