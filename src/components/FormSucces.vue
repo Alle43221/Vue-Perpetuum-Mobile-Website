@@ -1,6 +1,6 @@
 <template>
   <div class="formsucces">
-    <h1 class="success-message">YAY! Mesajul a fost trimis cu succes de pe email-ul introdus!</h1>
+    <h2 class="success-message">YAY! Formularul a fost trimis cu succes de pe email-ul introdus!</h2>
     <img alt="Happy robot cheering" src="@/assets/location2.png">
   </div>
 </template>
@@ -19,5 +19,14 @@
   flex-direction: column;
   flex-wrap: wrap;
   width: 125%;
+}
+img{
+  margin:0 auto;
+  padding: 0;
+  display: block;
+  max-width:230px;
+  max-height:75vh;
+  width: auto;
+  height: auto;
 }
 </style>

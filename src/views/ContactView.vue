@@ -30,15 +30,19 @@
         <a href="https://www.google.com/maps/place/Colegiul+Na%C8%9Bional+Mihai+Eminescu+Satu+Mare/@47.7893913,22.8741361,17z/data=!3m1!4b1!4m5!3m4!1s0x473805cdaac2883b:0x49b9e88a38ed23fe!8m2!3d47.7893834!4d22.8763575" target="_blank" class="maps-link">Ne găsiți pe Google Maps!</a>
       </div>
     </div>
-  <ContactForm></ContactForm>
+<!--  /</ContactForm>-->
+    <FormSucces></FormSucces>
   </div>
   </div>
 </template>
 
 <script>
-import ContactForm from "@/components/ContactForm";
+// import ContactForm from "@/components/ContactForm";
+import FormSucces from "@/components/FormSucces";
 export default {
-  components: {ContactForm}
+  components: {FormSucces,
+    // ContactForm
+  }
 }
 </script>
 
