@@ -31,16 +31,18 @@
       </div>
     </div>
 <!--  /</ContactForm>-->
-    <FormSucces></FormSucces>
+    <FormError></FormError>
   </div>
   </div>
 </template>
 
 <script>
-// import ContactForm from "@/components/ContactForm";
-import FormSucces from "@/components/FormSucces";
+//import ContactForm from "@/components/ContactForm";
+//import FormSucces from "@/components/FormSucces";
+import FormError from "@/components/FormError";
 export default {
-  components: {FormSucces,
+  components: {
+    FormError,
     // ContactForm
   }
 }
