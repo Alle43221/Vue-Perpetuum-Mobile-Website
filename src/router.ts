@@ -10,6 +10,7 @@ import PageNotFound from '../src/views/PageNotFoundView.vue';
 import JoinTheTeamForm from '../src/components/JoinTheTeamForm.vue'
 import FormSucces from '../src/components/FormSucces.vue'
 import InConstructionView from '@/views/InConstructionView.vue'
+import SponsorsList2022 from '@/components/Sponsors/SponsorsList2021-2022.vue'
 
 Vue.use(VueRouter);
 
@@ -28,7 +29,13 @@ routes= [
     {
         path: '/sponsori',
         name: 'SponsorsView',
-        component:PageNotFound,
+        component:SponsorsView,
+        children:[
+            {
+                path:'2021-2022',
+                component:SponsorsList2022
+            }
+        ]
     },
     {
         path: '/contact',
