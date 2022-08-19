@@ -1,7 +1,7 @@
 <template>
   <div class="formsucces">
     <h2 class="success-message">HMMM... Ceva a mers prost și formularul nu a putut fi trimis...</h2>
-    <img src="@/assets/location4.png">
+    <img src="@/assets/Robots/location4.png">
     <h2 class="success-message">Te rugăm să ne contactezi manual pe adresa de email.</h2>
   </div>
 </template>

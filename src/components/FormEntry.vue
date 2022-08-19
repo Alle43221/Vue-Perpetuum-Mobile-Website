@@ -1,7 +1,7 @@
 <template>
   <div id="formsucces">
     <h2 class="success-message">HEY! Ai intrat pe această pagină din greșeală.</h2>
-    <img src="@/assets/location6.png">
+    <img src="@/assets/Robots/location6.png">
     <h2 class="success-message">Poate voiai să ajungi aici:</h2>
     <a v-bind:href='src' v-text="msg"></a>
   </div>

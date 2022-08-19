@@ -1,7 +1,7 @@
 <template>
   <div id="pagenotfound">
     <div class="announcement">
-      <img src="../assets/location7.png">
+      <img src="../assets/Robots/location7.png">
       <div id="info">
         <h1>Page in development</h1>
         <h2>Ne pare rău, dar momentan muncitorii noștri harnici amenjează această pagină.</h2>

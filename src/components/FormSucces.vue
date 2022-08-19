@@ -1,7 +1,7 @@
 <template>
   <div class="formsucces">
     <h2 class="success-message">YAY! Formularul a fost trimis cu succes de pe email-ul introdus!</h2>
-    <img alt="Happy robot cheering" src="@/assets/location2.png">
+    <img alt="Happy robot cheering" src="@/assets/Robots/location2.png">
   </div>
 </template>
 

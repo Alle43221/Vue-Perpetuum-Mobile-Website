@@ -1,7 +1,7 @@
 <template>
   <div id="pagenotfound">
     <div class="announcement">
-      <img src="../assets/location5.png">
+      <img src="../assets/Robots/location5.png">
       <div id="info">
       <h1>404 Page not found</h1>
       <h2>Ne pare rău, dar nu am putut găsi pagina pe care o căutai.</h2>

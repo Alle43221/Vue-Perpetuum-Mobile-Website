@@ -15,12 +15,12 @@
         <br>
 
         <div class="email_section">
-          <img alt="Icon for the email" class="location_icon" src="@/assets/location.png">
+          <img alt="Icon for the email" class="location_icon" src="@/assets/Social links/location.png">
           <p class="email_text">Strada Mihai Eminescu 5, Satu Mare 440014, SM, România</p>
         </div>
 
         <div class="email_section">
-          <img alt="Icon for the location" class="email_icon" src="@/assets/email.png">
+          <img alt="Icon for the location" class="email_icon" src="@/assets/Social links/email.png">
           <a href="https://mail.google.com" class="email_copy" target="_blank">perpetuum.mobile@eminescusm.ro</a>
         </div>
 
