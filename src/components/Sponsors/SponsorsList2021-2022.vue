@@ -9,19 +9,19 @@
     <h2>Sponsori de aur</h2>
     <div class="logos">
       <div class="container">
-        <img src="@/assets/Sponsori 2021-2022/agrotex-removebg-preview.png">
-      </div>
-      <div class="container">
         <img src="@/assets/Sponsori 2021-2022/received_429824612236297.jpeg">
       </div>
       <div class="container">
         <img src="@/assets/Sponsori 2021-2022/received_2184306901723430.jpeg">
       </div>
       <div class="container">
-        <img src="@/assets/Sponsori 2021-2022/76139603_nicovid_s.r.l._logo.jpg">
+        <img src="@/assets/Sponsori 2021-2022/esedra.png">
       </div>
       <div class="container">
-        <img src="@/assets/Sponsori 2021-2022/esedra.png">
+        <img src="@/assets/Sponsori 2021-2022/agrotex-removebg-preview.png">
+      </div>
+      <div class="container">
+        <img src="@/assets/Sponsori 2021-2022/76139603_nicovid_s.r.l._logo.jpg">
       </div>
     </div>
     <h2>Sponsori de argint</h2>
@@ -33,7 +33,7 @@
     <h2>Sponsori de bronz</h2>
     <div class="logos">
       <div class="container">
-        <img src="@/assets/Sponsori 2021-2022/Hotel-Aurora-logo.png">
+        <img src="@/assets/Sponsori 2021-2022/Hotel-Aurora-logo (1).png">
       </div>
       <div class="container">
         <img src="@/assets/Sponsori 2021-2022/business_logo.png">
@@ -51,45 +51,35 @@ export default {
   name: "SponsorsList2022"
 }
 </script>
-
 <style scoped>
-.container{
-  border-radius: 5px;
-  background: RGB(169, 204, 141);
-  height: 15vh;
-  display: flex;
-  flex-direction:row;
-  margin:0 auto 0 0;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-}
 
 #list{
-  margin:15px;
+  margin:10px;
 }
 
 .logos{
-  display: inline-grid;
+  display: inline-flex;
   margin:0 auto;
-  gap:1rem;
-  grid-template-columns: auto;
+  grid-template-rows: repeat(1, 15vh);
+  flex-wrap: wrap;
 }
 
 img{
   display: block;
-  height: 100%;
+  height: 15vh;
   width: auto;
   border-radius: 5px;
   border:5px solid RGB(169, 204, 141);
+  background: RGB(169, 204, 141);
+  margin:5px
 }
 
 @media only screen and (max-width: 1481px) {
-  .logos { grid-template-columns: repeat(4, 1fr); }
+  .logos { grid-template-columns: repeat(4, 15vh); }
 }
 
-@media only screen and (max-width: 1800px) {
-  .logos { grid-template-columns: repeat(5, 1fr); }
+@media only screen and (max-width: 2000px) {
+  .logos { grid-template-columns: repeat(4, 15vh); }
 }
 
 </style>
