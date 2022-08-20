@@ -34,4 +34,5 @@ export default {
   justify-content: center;
   margin: 8vh 0;
 }
+
 </style>

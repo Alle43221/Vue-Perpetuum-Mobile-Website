@@ -45,7 +45,7 @@ export default {
 
   position:relative;
   bottom:0;
-  height: 11.5vh;
+  height: max(11.5vh, fit-content);
   width: 100%;
   padding: 1.5vh 0 1.5vh 0;
   border-top-left-radius: 10px;
@@ -55,7 +55,7 @@ export default {
 
 .social-links{
   display: inline-block;
-  width: 60rem;
+  width: fit-content;
   text-align: center;
 }
 
@@ -68,25 +68,25 @@ export default {
 }
 
 .insta-icon{
-  width: 4%;
+  width: 6vh;
   margin:0;
   padding: 0;
 }
 
 .dis-icon{
-  width: 5%;
+  width: 7vh;
   margin:0;
   padding: 0;
 }
 
 .git-icon{
-  width: 4%;
+  width: 6vh;
   margin:0;
   padding: 0;
 }
 
 .-icon{
-  width: 4%;
+  width: 5.5vh;
   margin:0;
   padding: 0;
 }
@@ -94,23 +94,24 @@ export default {
 .printables-icon{
   margin:0;
   padding: 0;
-  width: 4.5%;
+  width: 6.5vh;
 }
 
 .mail-icon{
   margin:0;
   padding: 0;
-  width: 4%;
+  width:6.5vh;
 }
 
 .copyright{
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .social{
   padding: 0;
-  margin: 0 5vh 0 5vh;
+  margin: 0 3vw;
   color:transparent;
 }
 </style>

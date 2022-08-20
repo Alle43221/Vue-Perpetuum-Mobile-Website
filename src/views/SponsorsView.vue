@@ -27,7 +27,7 @@
 }
 
 #announcement{
-  width: 60%;
+  width: 60vw;
   background: rgba(100, 164, 70, 0.75);
   border-radius: 10px;
   border: 10px solid rgba(26, 105, 66, 0.9);
@@ -51,14 +51,15 @@ nav{
   border: 2px solid RGB(169, 204, 141);;
   padding: 0.6rem;
   cursor: pointer;
-  margin:20px 10px  ;
+  margin:20px 10px;
   text-decoration: none;
   color:RGB(169, 204, 141);
-  width: fit-content;
+  width: available;
   flex-wrap: nowrap;
   display: flex;
   flex-direction: row;
   alignment: center;
+  justify-content: space-around;
 }
 a{
   text-wrap: none;
@@ -77,6 +78,10 @@ p{
 nav a.router-link-exact-active {
   color: RGB(169, 204, 141);
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 945px) {
+  #announcement{ min-width: 90vw;}
 }
 
 </style>
