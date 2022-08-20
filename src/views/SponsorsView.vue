@@ -22,8 +22,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin:10px 30px 10px 10px;
-  width: 110vh;
+  margin:10px 10px 10px 10px;
+  width: available;
 }
 
 #announcement{
@@ -38,6 +38,7 @@
   position: relative;
   margin:0 auto;
   color:#212121;
+  justify-content: center;
 }
 
 nav{
@@ -50,7 +51,7 @@ nav{
   border: 2px solid RGB(169, 204, 141);;
   padding: 0.6rem;
   cursor: pointer;
-  margin:20px auto;
+  margin:20px 10px  ;
   text-decoration: none;
   color:RGB(169, 204, 141);
   width: fit-content;
