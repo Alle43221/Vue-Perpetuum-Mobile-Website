@@ -56,7 +56,7 @@ export default {
 .container{
   border-radius: 5px;
   background: RGB(169, 204, 141);
-  height: 100px;
+  height: 15vh;
   display: flex;
   flex-direction:row;
   margin:0 auto 0 0;
@@ -78,8 +78,10 @@ export default {
 
 img{
   display: block;
-  height: 90%;
+  height: 100%;
   width: auto;
+  border-radius: 5px;
+  border:5px solid RGB(169, 204, 141);
 }
 
 @media only screen and (max-width: 1481px) {
