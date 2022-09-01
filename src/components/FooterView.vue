@@ -45,7 +45,7 @@ export default {
 
   position:relative;
   bottom:0;
-  height: 11.5vh;
+  min-height: 11.5vh;
   width: 100%;
   padding: 1.5vh 0 1.5vh 0;
   border-top-left-radius: 10px;

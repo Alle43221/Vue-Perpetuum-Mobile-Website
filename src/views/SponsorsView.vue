@@ -2,13 +2,13 @@
     <div id="announcement">
     <nav>
       <router-link to="/sponsori/2021-2022">2021-2022</router-link>
-      <p>|</p>
+      <p></p>
       <router-link to="/sponsori/2020-2021">2020-2021</router-link>
-      <p>|</p>
+      <p></p>
       <router-link to="/sponsori/2019-2020">2019-2020</router-link>
-      <p>|</p>
+      <p></p>
       <router-link to="/sponsori/2019-2020">2018-2019</router-link>
-      <p>|</p>
+      <p></p>
       <router-link to="/sponsori/2019-2020">2017-2018</router-link>
     </nav>
       <div id="info">
@@ -73,6 +73,7 @@ a:hover{
 }
 p{
   margin:10px 5px;
+  border-right:solid 4px RGB(169, 204, 141) ;
 }
 
 nav a.router-link-exact-active {
