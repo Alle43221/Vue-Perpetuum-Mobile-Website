@@ -33,7 +33,7 @@ export default {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   align-items: center;
-  height: 8.8vh;
+  height: max(8.8vh, fit-content);
 }
 
 nav {
@@ -48,6 +48,8 @@ nav {
   cursor: pointer;
   color:rgb(33, 33, 33);
   text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .navigation--link:active{
@@ -67,7 +69,7 @@ nav {
 }
 
 .logo{
-  width: 25%;
+  width: 15vh;
   margin-left: 30px;
   cursor: pointer;
   -webkit-filter: drop-shadow(0px 0px 8px #222);
