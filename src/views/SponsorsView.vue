@@ -68,7 +68,6 @@ a{
   margin:10px 5px;
 }
 a:hover{
-
   text-decoration: underline;
 }
 p{
