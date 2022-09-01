@@ -60,7 +60,6 @@ export default {
 .logos{
   display: inline-flex;
   margin:0 auto;
-  grid-template-rows: repeat(1, 15vh);
   flex-wrap: wrap;
 }
 
@@ -74,12 +73,8 @@ img{
   margin:5px
 }
 
-@media only screen and (max-width: 1481px) {
-  .logos { grid-template-columns: repeat(4, 15vh); }
-}
-
-@media only screen and (max-width: 2000px) {
-  .logos { grid-template-columns: repeat(4, 15vh); }
+@media only screen and (max-width: 420px) {
+  img{width: 75vw; height: auto}
 }
 
 </style>

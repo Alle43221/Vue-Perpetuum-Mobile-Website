@@ -104,7 +104,7 @@ export default {
 }
 
 .copyright{
-  margin: 0;
+  margin: 0 10px;
   padding: 0;
   text-align: center;
 }

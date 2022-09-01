@@ -85,4 +85,8 @@ nav a.router-link-exact-active {
   #announcement{ min-width: 90vw;}
 }
 
+@media only screen and (max-width: 945px) {
+  a{font-size: 3.5vw}
+}
+
 </style>
