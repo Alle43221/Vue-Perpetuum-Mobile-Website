@@ -87,9 +87,16 @@ nav a.router-link-exact-active {
 }
 
 @media only screen and (max-width: 1230px) {
-  a{font-size: 2vw; margin:10px 0}
+  .navigation--link{margin:10px 20px}
   nav{width: 80vw}
   .logo{width: 9vw; margin-left:5vw}
 }
 
+@media only screen and (max-width: 975px) {
+  .navigation--link{font-size: 2.5vw; margin:10px}
+}
+
+@media only screen and (max-width: 620px) {
+
+}
 </style>
