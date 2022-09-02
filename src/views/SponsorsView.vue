@@ -1,15 +1,15 @@
 <template>
     <div id="announcement">
     <nav>
-      <router-link to="/sponsori/2021-2022">2021-2022</router-link>
+      <router-link to="/sponsori/2021-2022">2021-<wbr>2022</router-link>
       <p></p>
-      <router-link to="/sponsori/2020-2021">2020-2021</router-link>
+      <router-link to="/sponsori/2020-2021">2020-<wbr>2021</router-link>
       <p></p>
-      <router-link to="/sponsori/2019-2020">2019-2020</router-link>
+      <router-link to="/sponsori/2019-2020">2019-<wbr>2020</router-link>
       <p></p>
-      <router-link to="/sponsori/2019-2020">2018-2019</router-link>
+      <router-link to="/sponsori/2019-2020">2018-<wbr>2019</router-link>
       <p></p>
-      <router-link to="/sponsori/2019-2020">2017-2018</router-link>
+      <router-link to="/sponsori/2019-2020">2017-<wbr>2018</router-link>
     </nav>
       <div id="info">
       <router-view></router-view>
@@ -62,7 +62,7 @@ nav{
   justify-content: space-around;
 }
 a{
-  text-wrap: none;
+  word-wrap: normal;
   text-decoration: none;
   color:#212121;
   margin:10px 5px;

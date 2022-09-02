@@ -85,4 +85,8 @@ nav a.router-link-exact-active {
   -1.5px -1.5px 0 rgb(26, 105, 66);
 }
 
+@media only screen and (max-width: 1210px) {
+  a{font-size: 2vw; margin-right: 0; margin-left:0}
+}
+
 </style>
