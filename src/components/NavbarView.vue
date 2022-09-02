@@ -10,6 +10,7 @@
       <router-link class="navigation--link" to="/alatura-te-echipei">Alătură-te echipei!</router-link>
       <router-link class="navigation--link" to="/contact">Contact</router-link>
     </nav>
+    <img class="ham" src="@/assets/Hamburger_icon.svg.png">
   </div>
 </template>
 
@@ -20,6 +21,13 @@ export default {
 </script>
 
 <style scoped>
+.ham{
+  z-index: 2;
+  width: 5vh;
+  align-self: center;
+  position: absolute;
+}
+
 #navbar{
   display:flex;
   flex-direction:row;
@@ -97,6 +105,6 @@ nav a.router-link-exact-active {
 }
 
 @media only screen and (max-width: 620px) {
-
+  nav{visibility: hidden}
 }
 </style>
