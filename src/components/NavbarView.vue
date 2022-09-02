@@ -22,10 +22,12 @@ export default {
 
 <style scoped>
 .ham{
-  z-index: 2;
-  width: 5vh;
+  z-index: 1;
+  width: 30px;
   align-self: center;
   position: absolute;
+  right: 20px;
+  visibility: hidden;
 }
 
 #navbar{
@@ -97,14 +99,16 @@ nav a.router-link-exact-active {
 @media only screen and (max-width: 1230px) {
   .navigation--link{margin:10px 20px}
   nav{width: 80vw}
-  .logo{width: 9vw; margin-left:5vw}
+  .logo{ margin-left:5vw}
 }
 
 @media only screen and (max-width: 975px) {
   .navigation--link{font-size: 2.5vw; margin:10px}
+  .logo{width: 12vw}
 }
 
 @media only screen and (max-width: 620px) {
   nav{visibility: hidden}
+  .ham{visibility: visible}
 }
 </style>
