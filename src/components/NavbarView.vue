@@ -1,6 +1,6 @@
 <template>
   <div id="navbar">
-    <div class="logo">
+    <div style=" -webkit-filter: drop-shadow(0px 0px 8px #222); filter: drop-shadow(0px 0px 8px #222);">
       <img class="logo" src="@/assets/logo_1-removebg-preview.png" alt="Perpetuum Mobile Logo">
     </div>
     <nav>
@@ -33,13 +33,14 @@ export default {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   align-items: center;
-  height: max(8.8vh, fit-content);
+  min-height: 8.8vh;
 }
 
 nav {
   display: flex;
   justify-content: flex-end;
   flex-direction:row;
+  align-items: center;
 }
 
 .navigation--link{
@@ -70,7 +71,7 @@ nav {
 
 .logo{
   width: 15vh;
-  margin-left: 30px;
+  margin-left: 60px;
   cursor: pointer;
   -webkit-filter: drop-shadow(0px 0px 8px #222);
   filter: drop-shadow(0px 0px 8px #222);
@@ -85,8 +86,10 @@ nav a.router-link-exact-active {
   -1.5px -1.5px 0 rgb(26, 105, 66);
 }
 
-@media only screen and (max-width: 1210px) {
-  a{font-size: 2vw; margin-right: 0; margin-left:0}
+@media only screen and (max-width: 1230px) {
+  a{font-size: 2vw; margin:10px 0}
+  nav{width: 80vw}
+  .logo{width: 9vw; margin-left:5vw}
 }
 
 </style>
