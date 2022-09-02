@@ -28,6 +28,7 @@ export default {
   position: absolute;
   right: 20px;
   visibility: hidden;
+  cursor: pointer;
 }
 
 #navbar{
