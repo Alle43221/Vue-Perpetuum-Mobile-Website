@@ -18,7 +18,7 @@
   flex-direction: column;
   justify-content: center;
   margin:10px 30px 10px 10px;
-  width: 110vh;
+  width: 70vw;
 }
 
 
@@ -64,5 +64,9 @@ a:hover{
   -webkit-transition: border-color, color, background-position 200ms ease;
   -moz-transition: border-color, color, background-position 200ms ease;
   -o-transition: border-color, color, background-position 200ms ease;
+}
+
+@media only screen and (max-width: 945px) {
+  .announcement{ min-width: 90vw;}
 }
 </style>

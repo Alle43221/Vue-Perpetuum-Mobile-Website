@@ -44,7 +44,7 @@ export default {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   align-items: center;
-  min-height: 8.8vh;
+  height: 8.8vh;
 }
 
 nav {
@@ -81,7 +81,8 @@ nav {
 }
 
 .logo{
-  width: 15vh;
+  height: 8vh;
+  width: auto;
   margin-left: 60px;
   cursor: pointer;
   -webkit-filter: drop-shadow(0px 0px 8px #222);
@@ -100,15 +101,14 @@ nav a.router-link-exact-active {
 @media only screen and (max-width: 1230px) {
   .navigation--link{margin:10px 20px}
   nav{width: 80vw}
-  .logo{ margin-left:5vw}
+  .logo{ margin-left:4.5vw}
 }
 
 @media only screen and (max-width: 975px) {
   .navigation--link{font-size: 2.5vw; margin:10px}
-  .logo{width: 12vw}
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 730px) {
   nav{visibility: hidden}
   .ham{visibility: visible}
 }
