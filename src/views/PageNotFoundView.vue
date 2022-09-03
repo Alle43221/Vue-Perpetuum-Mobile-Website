@@ -1,5 +1,4 @@
 <template>
-  <div id="pagenotfound">
     <div class="announcement">
       <img src="../assets/Robots/location5.png">
       <div id="info">
@@ -8,7 +7,6 @@
         <a href="/">Către pagina principală</a>
       </div>
     </div>
-  </div>
 </template>
 
 <style scoped>
@@ -17,12 +15,12 @@
   flex-direction: column;
   justify-content: center;
   margin:10px 30px 10px 10px;
-  width: 110vh;
+  width: 30vw;
 }
 
 
 .announcement{
-  width: 60%;
+  width: 45%;
   background: rgba(100, 164, 70, 0.75);
   border-radius: 10px;
   border: 10px solid rgba(26, 105, 66, 0.9);
@@ -32,12 +30,14 @@
   flex-direction: row;
   position: relative;
   margin:0 auto;
-  color:#212121
+  color:#212121;
+  align-items:center;
 }
 img{
   margin: 10px 0 10px 20px;
   padding:0;
-  height: 50vh;
+  height: 53vh;
+  width: auto;
 }
 
 a{
@@ -54,6 +54,7 @@ a{
   text-decoration: none;
   color:RGB(169, 204, 141);
   width: fit-content  ;
+  text-align: center;
 }
 
 a:hover{
@@ -63,5 +64,15 @@ a:hover{
   -webkit-transition: border-color, color, background-position 200ms ease;
   -moz-transition: border-color, color, background-position 200ms ease;
   -o-transition: border-color, color, background-position 200ms ease;
+}
+
+@media only screen and (max-width: 1090px) {
+  .announcement{ min-width: 90vw; justify-content: center}
+  #info{width: 50vw}
+}
+
+@media only screen and (max-width: 600px) {
+  .announcement{flex-direction: column-reverse}
+  #info{width: 75vw; margin:0 auto}
 }
 </style>
