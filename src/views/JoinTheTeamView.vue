@@ -1,7 +1,5 @@
 <template>
-  <div id="jointheteam">
   <div class="form-template">
-
     <div class="contact-info">
       <h1>Alătură-te echipei noastre de robotică!</h1>
 
@@ -17,7 +15,7 @@
 
         <div class="email_section">
           <img alt="Icon for the location" class="email_icon" src="@/assets/Social links/email.png">
-          <a href="https://mail.google.com" class="email_copy" target="_blank">perpetuum.mobile@eminescusm.ro</a>
+          <a href="https://mail.google.com" class="email_copy" target="_blank">perpetuum.<wbr>mobile@<wbr>eminescusm.<wbr>ro</a>
         </div>
 
         <br><br>
@@ -26,7 +24,6 @@
       </div>
     </div>
     <JoinTheTeamForm></JoinTheTeamForm>
-  </div>
   </div>
 </template>
 
@@ -82,13 +79,13 @@ export default {
 
 .email_copy{
   text-decoration: none;
-  margin: 10px 0;
+  margin: 5px ;
+  word-wrap: normal;
 }
 
 .email_icon{
-  width: 6%;
-  height: 6%;
-  margin: 6px 8px 0 0;
+  width: 3vh;
+  height: 3vh;
   padding: 0;
   float:left;
 }
@@ -97,12 +94,12 @@ export default {
   display: flex;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .location_icon{
-  width: 5.5%;
-  height: 5.5%;
-  margin: 11px 8px 0 0;
+  width: 4vh;
+  height: 4vh;
   padding: 0;
   float:left;
 }
@@ -122,13 +119,15 @@ hr{
 }
 
 .form_text{
-  margin: auto;
+  margin:auto 0;
   height: fit-content;
+  word-wrap: normal;
 }
 
 a{
   color:#212121;
   text-decoration: none;
+  width: 100%;
 }
 
 a:hover{
@@ -137,6 +136,14 @@ a:hover{
 
 @media only screen and (max-width: 945px) {
   .form-template{ min-width: 90vw;}
+}
+
+@media only screen and (max-width: 735px) {
+  .form-template{flex-direction: column;
+  }
+  .contact-info{
+    width: 90%;
+  }
 }
 
 </style>

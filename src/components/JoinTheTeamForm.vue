@@ -82,11 +82,11 @@
   color:#212121;
 }
 form{
-  width: 60%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin:2rem;
+  padding:2rem;
 }
 
 .to-be-completed{
@@ -94,7 +94,6 @@ form{
   border: 2px solid rgb(33, 33, 33);
   border-radius: 5px;
 
-  width: 30vw;
   padding: 12px 15px;
   margin: 8px 0;
   display: inline-block;
@@ -132,6 +131,7 @@ form{
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: rgba(26, 105, 66, 0.9);
 }
+
 .label{
   font-weight: bold;
   color: #222222;
@@ -139,6 +139,7 @@ form{
   margin:0;
   padding: 0;
   flex-direction: column;
+  width: 100%;
 }
 
 .message {
@@ -218,6 +219,12 @@ select{
 
 option:checked:not([disabled]){
   font-weight: bold;
+}
+
+@media only screen and (max-width: 735px) {
+  form{
+    width: 90%;
+  }
 }
 
 </style>
