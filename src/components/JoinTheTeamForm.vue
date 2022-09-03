@@ -72,7 +72,7 @@
       <div class="two-buttons">
         <button class="capcha">Capcha</button>
 
-        <button class="submit" >Trimite</button>
+        <button class="submit">Trimite</button>
       </div>
     </form>
 </template>
