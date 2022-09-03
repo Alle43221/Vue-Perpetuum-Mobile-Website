@@ -1,5 +1,4 @@
 <template>
-  <div id="contact">
   <div class="form-template">
 
     <div class="contact-info">
@@ -21,7 +20,7 @@
 
         <div class="email_section">
           <img alt="Icon for the location" class="email_icon" src="@/assets/Social links/email.png">
-          <a href="https://mail.google.com" class="email_copy" target="_blank">perpetuum.mobile@eminescusm.ro</a>
+          <a href="https://mail.google.com" class="email_copy" target="_blank">perpetuum.<wbr>mobile@<wbr>eminescusm.<wbr>ro</a>
         </div>
 
         <br>
@@ -32,7 +31,6 @@
     </div>
 <!--  /</ContactForm>-->
     <FormEntry></FormEntry>
-  </div>
   </div>
 </template>
 
@@ -51,7 +49,7 @@ export default {
 
 <style scoped>
 .form-template{
-  width: 60%;
+  width: 60vw;
   margin: 0 auto;
   vertical-align: center;
   background: rgba(100, 164, 70, 0.75);
@@ -68,6 +66,7 @@ export default {
   margin: 2rem;
   display: flex;
   flex-direction: column;
+  width:40%;
 }
 
 .maps-link{
@@ -91,13 +90,13 @@ export default {
 
 .email_copy{
   text-decoration: none;
-  margin: 10px 0;
+  margin: 5px ;
+  word-wrap: normal;
 }
 
 .email_icon{
-  width: 6%;
-  height: 6%;
-  margin: 6px 8px 0 0;
+  width: 3vh;
+  height: 3vh;
   padding: 0;
   float:left;
 }
@@ -106,18 +105,18 @@ export default {
   display: flex;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .location_icon{
-  width: 5.5%;
-  height: 5.5%;
-  margin: 11px 8px 0 0;
+  width: 3.5vh;
+  height: 3.5vh;
   padding: 0;
   float:left;
 }
 
 p{
-  margin: 5px;
+  margin: 5px ;
   color:#212121;
 }
 
@@ -131,8 +130,31 @@ hr{
 }
 
 .form_text{
-  margin: auto;
+  margin:auto 0;
   height: fit-content;
+  word-wrap: normal;
+}
+
+a{
+  color:#212121;
+  text-decoration: none;
+  width: 100%;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1115px) {
+  .form-template{ min-width: 90vw;}
+}
+
+@media only screen and (max-width: 735px) {
+  .form-template{flex-direction: column;
+  }
+  .contact-info{
+    width: 85%;
+  }
 }
 
 </style>

@@ -99,8 +99,8 @@ export default {
 }
 
 .location_icon{
-  width: 4vh;
-  height: 4vh;
+  width: 3.5vh;
+  height: 3.5vh;
   padding: 0;
   float:left;
 }
