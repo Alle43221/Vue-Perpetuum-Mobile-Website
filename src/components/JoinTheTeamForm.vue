@@ -223,7 +223,13 @@ option:checked:not([disabled]){
 
 @media only screen and (max-width: 735px) {
   form{
-    width: 90%;
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .container{
+    flex-direction: column;
   }
 }
 

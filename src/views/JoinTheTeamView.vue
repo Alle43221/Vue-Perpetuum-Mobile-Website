@@ -6,6 +6,7 @@
       <hr>
 
       <div class="form_text">
+        <br>
         <p >Completează formularul alăturat pentru un posibil loc în echipă.</p>
         <br><br>
         <div class="email_section">
@@ -134,7 +135,7 @@ a:hover{
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 945px) {
+@media only screen and (max-width: 1115px) {
   .form-template{ min-width: 90vw;}
 }
 
@@ -142,7 +143,7 @@ a:hover{
   .form-template{flex-direction: column;
   }
   .contact-info{
-    width: 90%;
+    width: 85%;
   }
 }
 
