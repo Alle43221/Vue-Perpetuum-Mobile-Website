@@ -1,5 +1,4 @@
 <template>
-  <div id="jointheteamform">
     <form>
       <label class="label">Nume complet
         <input type="text" class="to-be-completed" placeholder="Popdan Gheorghe" pattern="Popdan Gheorghe">
@@ -76,16 +75,18 @@
         <button class="submit" >Trimite</button>
       </div>
     </form>
-  </div>
 </template>
 
 <style scoped>
-#jointheteamform{
-  margin:2rem;
+.item{
+  color:#212121;
+}
+form{
+  width: 60%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  width: 125%;
+  flex-wrap: nowrap;
+  margin:2rem;
 }
 
 .to-be-completed{
@@ -93,7 +94,7 @@
   border: 2px solid rgb(33, 33, 33);
   border-radius: 5px;
 
-  width: 100%;
+  width: 30vw;
   padding: 12px 15px;
   margin: 8px 0;
   display: inline-block;
@@ -134,6 +135,10 @@
 .label{
   font-weight: bold;
   color: #222222;
+  display: flex;
+  margin:0;
+  padding: 0;
+  flex-direction: column;
 }
 
 .message {

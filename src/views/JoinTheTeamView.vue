@@ -41,7 +41,7 @@ export default {
 
 <style scoped>
 .form-template{
-  width: 60%;
+  width: 60vw;
   margin: 0 auto;
   vertical-align: center;
   background: rgba(100, 164, 70, 0.75);
@@ -58,6 +58,7 @@ export default {
   margin: 2rem;
   display: flex;
   flex-direction: column;
+  width:40%;
 }
 
 .maps-link{
@@ -132,6 +133,10 @@ a{
 
 a:hover{
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 945px) {
+  .form-template{ min-width: 90vw;}
 }
 
 </style>
