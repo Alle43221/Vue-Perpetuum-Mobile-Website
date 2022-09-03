@@ -86,7 +86,7 @@ export default {
 
 .email_icon{
   width: 3vh;
-  height: 3vh;
+  height: auto;
   padding: 0;
   float:left;
 }
@@ -99,8 +99,8 @@ export default {
 }
 
 .location_icon{
-  width: 3.5vh;
-  height: 3.5vh;
+  width: 3vh;
+  height: auto;
   padding: 0;
   float:left;
 }
