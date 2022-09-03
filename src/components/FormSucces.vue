@@ -17,9 +17,9 @@
   margin:2rem;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  width: 125%;
+  width: 50%;
 }
+
 img{
   margin:0 auto;
   padding: 0;
@@ -29,4 +29,11 @@ img{
   width: auto;
   height: auto;
 }
-</style>
+@media only screen and (max-width: 735px) {
+  .formsucces{
+    margin:2rem auto;
+    width: 80vw;
+  }
+}
+
+</style>>

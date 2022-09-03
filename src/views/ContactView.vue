@@ -30,18 +30,18 @@
       </div>
     </div>
 <!--  /</ContactForm>-->
-    <FormEntry></FormEntry>
+    <FormError></FormError>
   </div>
 </template>
 
 <script>
 //import ContactForm from "@/components/ContactForm";
 //import FormSucces from "@/components/FormSucces";
-//import FormError from "@/components/FormError";
-import FormEntry from "@/components/FormEntry";
+import FormError from "@/components/FormError";
+//import FormEntry from "@/components/FormEntry";
 export default {
   components: {
-    FormEntry,
+    FormError,
     // ContactForm
   }
 }
