@@ -24,45 +24,8 @@
 </template>
 
 <style scoped>
-
-.submit:hover{
-  border-color: RGB(26, 105, 66);
-  background-color: RGB(169, 204, 141);
-  color:RGB(26, 105, 66);
-
-  -webkit-transition: border-color, color, background-position 200ms ease;
-  -moz-transition: border-color, color, background-position 200ms ease;
-  -o-transition: border-color, color, background-position 200ms ease;
-}
-
-.submit:disabled{
-  opacity: 75%;
-  pointer-events: none;
-}
-
-input:focus, textarea:focus{
-  outline: none !important;
-  box-shadow: -2px 2px 0 rgb(26, 105, 66),
-  2px 2px 0 rgb(26, 105, 66),
-  2px -2px 0 rgb(26, 105, 66),
-  -2px -2px 0 rgb(26, 105, 66);
-}
-
-.submit{
-  border-radius: 15px;
-  background-color: rgb(26, 105, 66);
-  color:RGB(169, 204, 141);
-  font-family: inherit;
-  font-weight: inherit;
-  font-size:1.5em;
-  height: fit-content;
-  border: 2px solid RGB(169, 204, 141);;
-  padding: 0.6rem;
-  margin: auto;
-  cursor: pointer;
-}
 form{
-  width: 50%;
+  width: 48%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -151,8 +114,8 @@ input:focus, textarea:focus{
 }
 
 .capcha{
-  height: 77px;
-  width: 303px;
+  height: 5rem;
+  width: 60%;
 }
 
 .two-buttons{
@@ -185,6 +148,17 @@ option:checked:not([disabled]){
 @media only screen and (max-width: 735px) {
   form{
     width: 85%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+ .two-buttons{
+   flex-direction: column;
+   align-items: center;
+ }
+  .capcha{
+    margin-bottom: 10px;
+    width: 90%;
   }
 }
 
