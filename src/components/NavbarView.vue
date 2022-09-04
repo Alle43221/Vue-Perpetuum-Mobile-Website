@@ -21,7 +21,7 @@
       <router-link class="navigation--link" to="/alatura-te-echipei">Alătură-te echipei!</router-link>
       <router-link class="navigation--link" to="/contact">Contact</router-link>
       </nav>
-      <p>X</p>
+      <p v-on:click="handler1">X</p>
     </div>
   </div>
 </template>
@@ -31,8 +31,12 @@ export default {
   name: "NavbarView",
   methods: {
     handler() {
-      let HAM=document.getElementById("hamburger");
-      HAM.style.display="block";
+      document.getElementById("hamburger").style.display="block";
+      document.getElementById("blur").style.display="block";
+    },
+    handler1(){
+      document.getElementById("hamburger").style.display="none";
+      document.getElementById("blur").style.display="none";
     }
   }
 }
@@ -52,6 +56,7 @@ export default {
   backdrop-filter: blur(4px);
   position: absolute;
   background: RGBA(255, 255, 255, 0.1);
+  display: none;
 }
 
 #hamburger p{
@@ -63,6 +68,7 @@ export default {
   font-weight: bold;
   font-size: 2rem;
   font-family: Arial;
+  cursor: pointer;
 }
 
 #nav_new{
@@ -92,13 +98,17 @@ export default {
   border-radius: 30%;
 }
 
+/*#nav_new a:hover{*/
+/*  color: rgb(26, 105, 66);*/
+/*  text-shadow: none;*/
+/*}*/
+
 #hamburger{
   z-index: 3;
   position: absolute;
   top:0;
   right: 0;
-  /*display: none;*/
-  display:block;
+  display:none;
 }
 .ham{
   width: 30px;
