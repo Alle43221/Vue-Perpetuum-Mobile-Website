@@ -10,22 +10,34 @@
       <router-link class="navigation--link" to="/alatura-te-echipei">Alătură-te echipei!</router-link>
       <router-link class="navigation--link" to="/contact">Contact</router-link>
     </nav>
-    <img class="ham" src="@/assets/Hamburger_icon.svg.png">
+    <img  v-on:click="handler" class="ham" src="@/assets/Hamburger_icon.svg.png">
     <div id="hamburger">
-      <img src="/src/assets/agrotex3.png">
+      <img src="@/assets/agrotex3.png">
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "NavbarView"
+  name: "NavbarView",
+  methods: {
+    handler() {
+      document.getElementById("hamburger").setAttribute("display", "block");
+    }
+  }
 }
+
 </script>
 
 <style scoped>
+#hamburger{
+  z-index: 2;
+  position: absolute;
+  top:0;
+  right: 0;
+  display: none;
+}
 .ham{
-  z-index: 1;
   width: 30px;
   align-self: center;
   position: absolute;
