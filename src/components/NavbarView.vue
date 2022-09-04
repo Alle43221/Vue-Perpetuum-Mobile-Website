@@ -1,5 +1,6 @@
 <template>
   <div id="navbar">
+    <div id="blur"></div>
     <div style=" -webkit-filter: drop-shadow(0px 0px 8px #222); filter: drop-shadow(0px 0px 8px #222);">
       <img class="logo" src="@/assets/logo_1-removebg-preview.png" alt="Perpetuum Mobile Logo">
     </div>
@@ -12,7 +13,6 @@
     </nav>
     <img  v-on:click="handler" class="ham" src="@/assets/Hamburger_icon.svg.png">
     <div id="hamburger">
-      <div id="blur"></div>
       <img src="@/assets/agrotex3.png">
       <nav id="nav_new">
       <router-link class="navigation--link" to="/">Acasă</router-link>
@@ -42,12 +42,16 @@ export default {
 <style scoped>
 
 #blur{
-  height: 100vh;
-  width:100vw;
+  height: 100%;
+  width:100%;
+  right: 0;
+  left:0;
+  top:0;
+  bottom: 0;
   z-index: 2;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  backdrop-filter: blur(4px);
   position: absolute;
+  background: RGBA(255, 255, 255, 0.1);
 }
 
 #hamburger p{
@@ -58,6 +62,7 @@ export default {
   margin:30px 35px 0 0;
   font-weight: bold;
   font-size: 2rem;
+  font-family: Arial;
 }
 
 #nav_new{
@@ -76,6 +81,7 @@ export default {
 
 #nav_new a{
   margin:14px 10px 10px 10px;
+  font-size: 25px;
 }
 #hamburger{
   z-index: 3;
@@ -163,7 +169,7 @@ export default {
 
 @media only screen and (max-width: 1230px) {
   .navigation--link{margin:10px 20px}
-  nav{width: 80vw}
+  #nav{width: 80vw}
   .logo{ margin-left:4.5vw}
 }
 
@@ -172,7 +178,7 @@ export default {
 }
 
 @media only screen and (max-width: 730px) {
-  nav{visibility: hidden}
+  #nav{visibility: hidden}
   .ham{display: block}
 }
 </style>
