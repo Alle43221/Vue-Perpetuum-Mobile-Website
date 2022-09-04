@@ -234,4 +234,9 @@ option:checked:not([disabled]){
     width: 164px;
   }
 }
+@media only screen and (max-width: 420px) {
+  .container{
+    flex-direction: column;
+  }
+}
 </style>

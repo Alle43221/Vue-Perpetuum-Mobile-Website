@@ -11,6 +11,9 @@
       <router-link class="navigation--link" to="/contact">Contact</router-link>
     </nav>
     <img class="ham" src="@/assets/Hamburger_icon.svg.png">
+    <div id="hamburger">
+      <img src="/src/assets/agrotex3.png">
+    </div>
   </div>
 </template>
 
@@ -27,7 +30,7 @@ export default {
   align-self: center;
   position: absolute;
   right: 20px;
-  visibility: hidden;
+  display:none;
   cursor: pointer;
 }
 
@@ -110,6 +113,6 @@ nav a.router-link-exact-active {
 
 @media only screen and (max-width: 730px) {
   nav{visibility: hidden}
-  .ham{visibility: visible}
+  .ham{display: block}
 }
 </style>
