@@ -169,7 +169,7 @@ export default {
 }
 
 .logo{
-  height: 7.5vh;
+  height: 8vh;
   width: auto;
   margin-left: 60px;
   cursor: pointer;
