@@ -82,12 +82,14 @@ export default {
 
 
 #nav_new a{
-  margin:7px 5px 5px 5px;
-  padding:7px 5px 5px 5px;
+  padding:14px 10px 10px 10px;
+  margin:0;
   font-size: 25px;
   width: fit-content;
   word-wrap: normal;
   /*border-bottom: solid#212121 2px;*/
+  /*background: linear-gradient(rgba(33, 33, 33, 0), rgba(33, 33, 33, 0.2));*/
+  border-radius: 30%;
 }
 
 #hamburger{
@@ -196,6 +198,14 @@ export default {
   #hamburger p{
     margin:6vw 7vw 0 0;
     font-size: 8vw;
+  }
+  #hamburger #nav_new{
+    right:16vw;
+    top:13vw;
+  }
+  #hamburger a{
+    font-size: 5.5vw;
+    padding:3.5vw 2vw 2vw 2vw;
   }
 }
 </style>
