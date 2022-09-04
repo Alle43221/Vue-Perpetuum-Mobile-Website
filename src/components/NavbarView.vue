@@ -64,7 +64,7 @@ export default {
   position: absolute;
   right:0;
   top:0;
-  margin:30px 35px 0 0;
+  margin:30px 34px 0 0;
   font-weight: bold;
   font-size: 2rem;
   font-family: Arial;
@@ -169,7 +169,7 @@ export default {
 }
 
 .logo{
-  height: 8vh;
+  height: 7.5vh;
   width: auto;
   margin-left: 60px;
   cursor: pointer;
