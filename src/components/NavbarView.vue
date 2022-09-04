@@ -76,13 +76,20 @@ export default {
   border-radius: 100%;
   box-shadow: 0 0 5px 10px RGBA(175, 175, 175, 0.5);
   width: 70%;
+  justify-content: center;
+  align-items: center;
 }
 
 
 #nav_new a{
-  margin:14px 10px 10px 10px;
+  margin:7px 5px 5px 5px;
+  padding:7px 5px 5px 5px;
   font-size: 25px;
+  width: fit-content;
+  word-wrap: normal;
+  /*border-bottom: solid#212121 2px;*/
 }
+
 #hamburger{
   z-index: 3;
   position: absolute;
@@ -180,5 +187,15 @@ export default {
 @media only screen and (max-width: 730px) {
   #nav{visibility: hidden}
   .ham{display: block}
+}
+
+@media only screen and (max-width: 440px) {
+  #hamburger img{
+    width:90vw;
+  }
+  #hamburger p{
+    margin:6vw 7vw 0 0;
+    font-size: 8vw;
+  }
 }
 </style>
