@@ -1,31 +1,63 @@
 <template>
-    <form>
-      <label class="label">Nume complet
-        <input type="text" class="to-be-completed" placeholder="Popdan Gheorghe" pattern="Popdan Gheorghe">
-      </label>
+  <form>
+    <label class="label">Nume complet
+      <input type="text" class="to-be-completed" placeholder="Popdan Gheorghe" pattern="Popdan Gheorghe">
+    </label>
 
-      <label class="label">Email
-        <input type="email" class="to-be-completed" placeholder="popdan_gheorghe@gmail.com">
-      </label>
+    <label class="label">Email
+      <input type="email" class="to-be-completed" placeholder="popdan_gheorghe@gmail.com">
+    </label>
 
-      <label class="label">Titlu
-        <input type="text" class="to-be-completed" placeholder="Titlul mesajului" size="500" >
-      </label>
+    <label class="label">Titlu
+      <input type="text" class="to-be-completed" placeholder="Titlul mesajului" size="500" >
+    </label>
 
-      <label class="label">Mesaj
-        <textarea class="to-be-completed message" placeholder="Bună ziua! Vă contactez în legătură cu..."></textarea>
-      </label>
-      <div class="two-buttons">
-        <button class="capcha">Capcha</button>
+    <label class="label">Mesaj
+      <textarea class="to-be-completed message" placeholder="Bună ziua! Vă contactez în legătură cu..."></textarea>
+    </label>
+    <div class="two-buttons">
+      <button class="capcha">Capcha</button>
 
-        <button class="submit">Trimite</button>
-      </div>
-    </form>
+      <button class="submit">Trimite</button>
+    </div>
+  </form>
 </template>
 
 <style scoped>
+.submit:hover{
+  border-color: RGB(26, 105, 66);
+  background-color: RGB(169, 204, 141);
+  color:RGB(26, 105, 66);
+  -webkit-transition: border-color, color, background-position 200ms ease;
+  -moz-transition: border-color, color, background-position 200ms ease;
+  -o-transition: border-color, color, background-position 200ms ease;
+}
+.submit:disabled{
+  opacity: 75%;
+  pointer-events: none;
+}
+input:focus, textarea:focus{
+  outline: none !important;
+  box-shadow: -2px 2px 0 rgb(26, 105, 66),
+  2px 2px 0 rgb(26, 105, 66),
+  2px -2px 0 rgb(26, 105, 66),
+  -2px -2px 0 rgb(26, 105, 66);
+}
+.submit{
+  border-radius: 15px;
+  background-color: rgb(26, 105, 66);
+  color:RGB(169, 204, 141);
+  font-family: inherit;
+  font-weight: inherit;
+  font-size:1.5em;
+  height: fit-content;
+  border: 2px solid RGB(169, 204, 141);;
+  padding: 0.6rem;
+  margin: auto;
+  cursor: pointer;
+}
 form{
-  width: 48%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -36,7 +68,6 @@ form{
   background: RGB(169, 204, 141);
   border: 2px solid rgb(33, 33, 33);
   border-radius: 5px;
-
   padding: 12px 15px;
   margin: 8px 0;
   display: inline-block;
@@ -59,7 +90,6 @@ form{
   1px 1px 1px #d9442d,
   1px -1px 1px #d9442d,
   -1px -1px 1px #d9442d;
-
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -109,25 +139,27 @@ input:focus, textarea:focus{
   height: fit-content;
   border: 2px solid RGB(169, 204, 141);;
   padding: 0.6rem;
-  margin: auto;
+  margin: 10px auto 0 auto;
   cursor: pointer;
 }
 
 .capcha{
-  height: 5rem;
-  width: 60%;
+  height: 78px;
+  width: 304px;
 }
 
 .two-buttons{
   display: flex;
   margin: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .submit:hover{
   border-color: RGB(26, 105, 66);
   background-color: RGB(169, 204, 141);
   color:RGB(26, 105, 66);
-
   -webkit-transition: border-color, color, background-position 200ms ease;
   -moz-transition: border-color, color, background-position 200ms ease;
   -o-transition: border-color, color, background-position 200ms ease;
@@ -151,15 +183,10 @@ option:checked:not([disabled]){
   }
 }
 
-@media only screen and (max-width: 450px) {
- .two-buttons{
-   flex-direction: column;
-   align-items: center;
- }
+@media only screen and (max-width: 400px) {
   .capcha{
-    margin-bottom: 10px;
-    width: 90%;
+    height: 144px;
+    width: 164px;
   }
 }
-
 </style>
