@@ -3,7 +3,7 @@
     <div style=" -webkit-filter: drop-shadow(0px 0px 8px #222); filter: drop-shadow(0px 0px 8px #222);">
       <img class="logo" src="@/assets/logo_1-removebg-preview.png" alt="Perpetuum Mobile Logo">
     </div>
-    <nav>
+    <nav id="nav">
       <router-link class="navigation--link" to="/">Acasă</router-link>
       <router-link class="navigation--link" to="/echipa-noastra">Echipa noastră</router-link>
       <router-link class="navigation--link" to="/sponsori">Sponsori</router-link>
@@ -12,7 +12,16 @@
     </nav>
     <img  v-on:click="handler" class="ham" src="@/assets/Hamburger_icon.svg.png">
     <div id="hamburger">
+      <div id="blur"></div>
       <img src="@/assets/agrotex3.png">
+      <nav id="nav_new">
+      <router-link class="navigation--link" to="/">Acasă</router-link>
+      <router-link class="navigation--link" to="/echipa-noastra">Echipa noastră</router-link>
+      <router-link class="navigation--link" to="/sponsori">Sponsori</router-link>
+      <router-link class="navigation--link" to="/alatura-te-echipei">Alătură-te echipei!</router-link>
+      <router-link class="navigation--link" to="/contact">Contact</router-link>
+      </nav>
+      <p>X</p>
     </div>
   </div>
 </template>
@@ -22,7 +31,8 @@ export default {
   name: "NavbarView",
   methods: {
     handler() {
-      document.getElementById("hamburger").setAttribute("display", "block");
+      let HAM=document.getElementById("hamburger");
+      HAM.style.display="block";
     }
   }
 }
@@ -30,12 +40,50 @@ export default {
 </script>
 
 <style scoped>
-#hamburger{
+
+#blur{
+  height: 100vh;
+  width:100vw;
   z-index: 2;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  position: absolute;
+}
+
+#hamburger p{
+  z-index: 5;
+  position: absolute;
+  right:0;
+  top:0;
+  margin:30px 35px 0 0;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#nav_new{
+  display: flex;
+  flex-direction: column;
+  z-index: 4;
+  position: absolute;
+  right:16%;
+  top:13%;
+  background: RGBA(175, 175, 175, 0.5);
+  border-radius: 100%;
+  box-shadow: 0 0 5px 10px RGBA(175, 175, 175, 0.5);
+  width: 70%;
+}
+
+
+#nav_new a{
+  margin:14px 10px 10px 10px;
+}
+#hamburger{
+  z-index: 3;
   position: absolute;
   top:0;
   right: 0;
-  display: none;
+  /*display: none;*/
+  display:block;
 }
 .ham{
   width: 30px;
@@ -62,7 +110,7 @@ export default {
   height: 8.8vh;
 }
 
-nav {
+#nav {
   display: flex;
   justify-content: flex-end;
   flex-direction:row;
@@ -104,7 +152,7 @@ nav {
   filter: drop-shadow(0px 0px 8px #222);
 }
 
-nav a.router-link-exact-active {
+#nav a.router-link-exact-active {
   color: RGB(169, 204, 141);
   text-decoration: underline;
   text-shadow: -1.5px 1.5px 0 rgb(26, 105, 66),
