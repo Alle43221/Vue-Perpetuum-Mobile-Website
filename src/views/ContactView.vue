@@ -28,18 +28,17 @@
       </div>
     </div>
 <!--  /</ContactForm>-->
-    <ContactForm></ContactForm>
+    <FormSubmisionLimit></FormSubmisionLimit>
   </div>
 </template>
 
 <script>
 
-import ContactForm from "@/components/ContactForm";
-//import FormEntry from "@/components/FormEntry";
+import FormSubmisionLimit from "@/components/FormSubmisionLimit";
+
 export default {
   components: {
-    ContactForm,
-    // ContactForm
+    FormSubmisionLimit,
   }
 }
 </script>
