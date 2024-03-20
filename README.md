@@ -1,6 +1,6 @@
 # Perpetuum Mobile #065 FTC webpage - concept with Vue Framework
 After scalling, the project needed a more structured approach before attempting to make the page responsive.  
-Fixed a few design issues.
+Fixed a few design issues and added visual feedback for the user.
 
 - join page - form <br /> <br />
 ![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/021c552c-fbb4-4da3-9e98-5dd1277e50d6)
