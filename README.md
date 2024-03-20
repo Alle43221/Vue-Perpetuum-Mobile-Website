@@ -7,8 +7,20 @@ Fixed a few design issues.
 ![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/a1f583eb-994b-4167-8db9-3188842312a2)<br /> <br />
 
 - join page - outside of season <br /> <br />
-![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/f18e7776-9549-4d1b-a2a3-844b008cf400)
-![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/3198dd3c-84cb-487a-9b06-1dd150753c9f)<br /> <br />
+![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/c935c38b-bbd5-4732-9da0-85a8d73dfc9e)
+![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/a6a96fbf-407a-42cd-aaf0-d67c5e8e4584)<br /> <br />
+
+- contact form <br /> <br />
+![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/41eadbfc-4145-45ea-83f0-9b616ae6b85d)<br /> <br />
+
+- contact form - error <br /> <br />
+![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/b86070ce-4b17-4f5c-b7ed-acb1d8fbaf5d) <br /> <br />
+
+- contact form - illegal entry <br /> <br />
+![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/f7db1571-4969-4c8b-86b4-f08f4588d8fb) <br /> <br />
+
+- contact form - succes <br /> <br />
+- ![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/bb2ca5e9-1030-4666-883a-648e31e6f651)<br /> <br />
 
 - sponsors page <br /> <br />
 ![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/2b41e1d2-8b3b-4561-80b7-87b224a57bab)
