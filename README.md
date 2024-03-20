@@ -20,7 +20,7 @@ Fixed a few design issues.
 ![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/f7db1571-4969-4c8b-86b4-f08f4588d8fb) <br /> <br />
 
 - contact form - succes <br /> <br />
-- ![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/bb2ca5e9-1030-4666-883a-648e31e6f651)<br /> <br />
+![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/bb2ca5e9-1030-4666-883a-648e31e6f651)<br /> <br />
 
 - sponsors page <br /> <br />
 ![image](https://github.com/Alle43221/Vue-Perpetuum-Mobile-Website/assets/79206599/2b41e1d2-8b3b-4561-80b7-87b224a57bab)
